@@ -135,6 +135,7 @@
 ##HATEOAS
 在介绍HATEOAS之前，先介绍一下REST的成熟度模型
 > 在介绍 HATEOAS 之前，先介绍一下 Richardson 提出的 REST 成熟度模型。该模型把 REST 服务按照成熟度划分成 4 个层次：
+
 * 第一个层次（Level 0）的 Web 服务只是使用 HTTP 作为传输方式，实际上只是远程方法调用（RPC）的一种具体形式。
 * 第二个层次（Level 1）的 Web 服务引入了资源的概念。每个资源有对应的标识符和表达。
 * 第三个层次（Level 2）的 Web 服务使用不同的 HTTP 方法来进行不同的操作，并且使用 HTTP 状态码来表示不同的结果。如 HTTP GET 方法来获取资源，HTTP DELETE 方法来删除资源。
