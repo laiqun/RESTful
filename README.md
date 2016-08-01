@@ -2,7 +2,7 @@
 
 @(rest)[规范]
 
-[toc]
+[TOC]
 
 ## URI
 
