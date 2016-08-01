@@ -95,6 +95,7 @@
 
 ## 版本控制
 三种方案：
+
 1. 在uri中加入版本： /v1/room/1
 2. Accept Header：Accept: v1
 3. 自定义 Header：X-Imweb-Media-Type:  imweb.v1 (我们使用此方案)
